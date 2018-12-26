@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="026adc91-9fec-4707-85f7-14003c0ae8c9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/first_page_js.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vladstudiocss.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vladstudiojs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/firsr_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/firsr_page.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -14,21 +19,36 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/firsr_page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+            <state relative-caret-position="-303">
+              <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../Vladstudio.html">
+        <entry file="file://$PROJECT_DIR$/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-620">
-              <caret line="268" column="24" selection-start-line="268" selection-start-column="24" selection-end-line="268" selection-end-column="24" />
+            <state relative-caret-position="217">
+              <caret line="7" column="7" lean-forward="true" selection-start-line="6" selection-end-line="7" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/first_page_js.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -36,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../二哈's Blog - 一只傻傻的二哈.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11377">
-              <caret line="367" column="35" selection-start-line="367" selection-start-column="35" selection-end-line="367" selection-end-column="35" />
+            <state>
+              <caret line="315" column="21" selection-start-line="315" selection-start-column="21" selection-end-line="315" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -47,9 +67,18 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>speech-bubble</find>
+      <find>previous-quote</find>
+      <find>speech-quote</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -57,13 +86,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/vladstudiocss.css" />
+        <option value="$PROJECT_DIR$/vladstudiojs.js" />
+        <option value="$PROJECT_DIR$/test.html" />
+        <option value="$PROJECT_DIR$/first_page_js.js" />
         <option value="$PROJECT_DIR$/firsr_page.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="width" value="980" />
+    <option name="x" value="952" />
+    <option name="width" value="977" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -72,7 +105,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -84,11 +116,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -114,24 +148,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1545741386366</updated>
-      <workItem from="1545741387757" duration="4757000" />
+      <workItem from="1545741387757" duration="4905000" />
+      <workItem from="1545803420718" duration="9631000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4757000" />
+    <option name="totallyTimeSpent" value="14536000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966975" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1340819" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -139,6 +169,10 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3289855" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -148,24 +182,65 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/vladstudiocss.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="763" lean-forward="true" selection-start-line="763" selection-end-line="763" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../../Vladstudio.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-620">
-          <caret line="268" column="24" selection-start-line="268" selection-start-column="24" selection-end-line="268" selection-end-column="24" />
+        <state relative-caret-position="31">
+          <caret line="241" column="20" selection-start-line="241" selection-start-column="20" selection-end-line="241" selection-end-column="20" />
+          <folding>
+            <element signature="e#14712#14718#0" expanded="true" />
+            <element signature="e#14745#14751#0" expanded="true" />
+            <element signature="e#14751#14757#0" expanded="true" />
+            <element signature="e#14759#14765#0" expanded="true" />
+            <element signature="e#14778#14784#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vladstudiojs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="38" column="22" lean-forward="true" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../二哈's Blog - 一只傻傻的二哈.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11377">
-          <caret line="367" column="35" selection-start-line="367" selection-start-column="35" selection-end-line="367" selection-end-column="35" />
+        <state>
+          <caret line="315" column="21" selection-start-line="315" selection-start-column="21" selection-end-line="315" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first_page_js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="7" column="7" lean-forward="true" selection-start-line="6" selection-end-line="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/firsr_page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
+        <state relative-caret-position="-303">
+          <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>

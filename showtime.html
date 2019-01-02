@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			#showTime{
+				height: 50px;
+				width: 400px;
+				line-height: 50px;
+				font-size: 16px;
+				color: white;
+				background-color: cornflowerblue;
+				margin: 10px auto;
+				text-align: center;
+			}
+		</style>
+		<script type="text/javascript">
+			function getSecond(x){
+				if(x<10) 
+					return "0"+x;
+				else
+					return x;
+			}
+			function showTime(){
+				
+				var xdate = new Date();
+				var xyear = xdate.getFullYear();
+				var xmonth = xdate.getMonth()+1;
+				var xday = xdate.getDate();
+				var xweek = xdate.getDay();
+				var week =["周日","周一","周二","周三","周四","周五","周六"];
+				var xhours = xdate.getHours();
+				var xminute = xdate.getMinutes();
+				var xseconds = getSecond(xdate.getSeconds());
+				var str = "";
+				
+				str = xyear+"-"+xmonth+"-"+xday+" "+week[xweek]+" "+xhours
+				+":"+xminute+":"+xseconds;	
+				
+				document.getElementById('showTime').innerHTML=str;
+			}
+			
+			window.setInterval(showTime,500);
+		</script>
+	</head>
+	<body>
+		<div id="showTime">
+			
+		</div>
+	</body>
+</html>

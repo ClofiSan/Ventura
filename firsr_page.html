@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <title>Welcome To Ventura's World!</title>
     <style type="text/css">
+        .hidden{
+            display: none;
+        }
         .container{
             width: max-content;
             margin-left: auto;
@@ -42,12 +45,68 @@
             width: 150px;
             height: 150px;
         }
+        #picture img{
+            border-radius:50%;
+
+        }
         #intro{
             display: inline-block;
+            width: 400px;
+            vertical-align: top;
+            padding-left: 20px;
+        }
+        #time{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10px;
+            text-align: center  ;
+        }
+        #upper_quote_box{
+            display: flex;
+        }
+        #box{
+            /*也就是要box进行设定*/
+            flex: 1;
+            display: flex;
+            width: 100%;
+            border: 2px solid #000000;
+            flex-wrap: nowrap;
+            margin-bottom: 20px;
+            margin-right: 20px;
+            margin-left: 20px;
+        }
+        .quote_nav{
+            /*把nav写好，然后调试js */
+            /*设置bg 各种属性*/
+            height: 50px;
+            width: 80px;
+            background-color: rgba(255,250,225,0.5);
+            box-shadow: 0 2px 4px 0 rgba(0,0,0,0.11);
+            text-align: center;
+            font-size: 1.8em;
+            vertical-align: center;
+        }
+        .quote_nav:hover{
+            background-color:rgba(255,255,255,0.8);
+        }
+        .quote_box{
+            /*隐藏的实现方法有问题*/
+            flex: 1;
+            background: #fff;
+            border: 1px solid #007fcf;
+            position: relative;
+        }
+        .content{
+            text-align: center;
+            font-size: 1.2em;
+            padding: 30px;
+            margin: 0 20px;
+        }
+        .author{
+            text-align: right;
         }
     </style>
-    <script type="text/javascript" src="js/jquery-3.3.1.min.js" ></script>
-    <script type="text/javascript" src="first_page_js.js"></script>
 </head>
 <body>
     <div class="container" id="nav_head" >
@@ -78,50 +137,57 @@
             <img src="cats.jpg" alt="头像404的日常……" height="150px">
         </div>
         <div id="intro">
+            <!--如何让字呈现在右边-->
             <h2>Hello，欢迎来到Gats的小世界</h2>
-            <p>Hello，欢迎来到Gats的小世界</p>
+            <p>这里是收录了Gats关于人文社科的想法，技术探索的博客以及一些心血来潮的小故事</p>
         </div>
         <div id="time">
             <!--js代码实现时间流动-->
         </div>
     </div>
-    <div class="container" id="quote">
-<!--内置了很多伪类，用js嗲用-->
-        <div id="previous_quote"><-
+    <div class="container" id="upper_quote_box">
+<!--几个模块要叠加在一起，要有隐藏的和显示的-->
+        <div class="quote_nav" id="previous_quote" onclick="LastQuote()">
+            👈
         </div>
-        <div class="quote_box">
-            <div class="content">
-                "男人要看向远方，不然女人就会看向看向远方的男人！"
+        <div id="box">
+            <div class="quote_box">
+                <div class="content">
+                    "男人要看向远方，不然女人就会看向看向远方的男人！"
+                </div>
+                <div class="author">by 教主</div>
             </div>
-            <div class="author">by 教主</div>
-        </div>
-        <div class="quote_box">
-            <div class="content">
-                “男人不要有欲望，要有志向。”
+            <div class="quote_box hidden">
+                <div class="content">
+                    “男人不要有欲望，要有志向。”
+                </div>
+                <div class="author">by 教主</div>
             </div>
-            <div class="author">by 教主</div>
-        </div>
-        <div class="quote_box">
-            <div class="content">
-                何人为我楚舞，听我楚狂之声！
+            <div class="quote_box hidden">
+                <div class="content">
+                    何人为我楚舞，听我楚狂之声！
+                </div>
+                <div class="author">辛弃疾《水调歌头》</div>
             </div>
-            <div class="author">辛弃疾《水调歌头》</div>
-        </div>
-        <div class="quote_box">
-            <div class="content">
-                我们都生活在阴沟里，但仍有人仰望星空。
+            <div class="quote_box hidden">
+                <div class="content">
+                    我们都生活在阴沟里，但仍有人仰望星空。
+                </div>
+                <div class="author">王尔德</div>
             </div>
-            <div class="author">王尔德</div>
-        </div>
-        <div class="quote_box">
-            <div class="content">
-                我所有的自负都源于我的自卑，所有的英雄气概都源于我的软弱。嘴里振振有词，是因为 <br>
-                心里满是怀疑，深情是因为痛恨自己无情。这世界没有一件事情是虚空而生的。站在光里，<br>
-                背后就有阴影，这深夜一片寂静，是因为你还没有听见声音。 <br>
+            <div class="quote_box hidden">
+                <div class="content">
+                    我所有的自负都源于我的自卑，所有的英雄气概都源于我的软弱。嘴里振振有词，是因为 <br>
+                    心里满是怀疑，深情是因为痛恨自己无情。这世界没有一件事情是虚空而生的。站在光里，<br>
+                    背后就有阴影，这深夜一片寂静，是因为你还没有听见声音。 <br>
+                </div>
+                <div class="author">马良《坦白书》</div>
             </div>
-            <div class="author">马良《坦白书》</div>
         </div>
-        <div id="next_quote">-></div>
+
+        <div class="quote_nav" id="next_quote" onclick="NextQuote()">
+            👉
+        </div>
 
     </div>
     <div class="container" id="blog_index">
@@ -151,4 +217,6 @@
             <img src="" alt=""></div>
     </div>
 </body>
+<script type="text/javascript" src="first_page_js.js"></script>
+
 </html>

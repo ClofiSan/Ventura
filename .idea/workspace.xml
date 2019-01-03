@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/first_page_js.js" line="61" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="026adc91-9fec-4707-85f7-14003c0ae8c9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/picture_lunbotest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Ventura.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Ventura.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/firsr_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/firsr_page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/first_page_js.js" beforeDir="false" afterPath="$PROJECT_DIR$/first_page_js.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,29 +20,29 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.523602">
+    <splitter split-orientation="horizontal" split-proportion="0.4655472">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/firsr_page.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="54">
-                  <caret line="161" column="35" lean-forward="true" selection-start-line="161" selection-start-column="35" selection-end-line="161" selection-end-column="35" />
+                <state relative-caret-position="411">
+                  <caret line="157" column="29" selection-start-line="157" selection-start-column="29" selection-end-line="157" selection-end-column="29" />
                   <folding>
                     <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/js/lunbo.js">
+            <entry file="file://$PROJECT_DIR$/picture_lunbotest.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="279">
-                  <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+                <state relative-caret-position="1025">
+                  <caret line="128" column="23" lean-forward="true" selection-start-line="128" selection-start-column="23" selection-end-line="128" selection-end-column="23" />
                 </state>
               </provider>
             </entry>
@@ -50,8 +50,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Vladstudio_files/js.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="310">
-                  <caret line="28" selection-start-line="28" selection-end-line="28" selection-end-column="1" />
+                <state relative-caret-position="1292">
+                  <caret line="40" column="3" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
                 </state>
               </provider>
             </entry>
@@ -59,8 +59,36 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/../../二哈's Blog - 一只傻傻的二哈.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-8">
-                  <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+                <state relative-caret-position="1109">
+                  <caret line="833" selection-start-line="833" selection-end-line="833" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/erhablog_files/vs.min.css">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/erhablog_files/bootstrap.min.css">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/erhablog_files/function.min.css">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/erhablog_files/handsome.min.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="815" selection-start-column="815" selection-end-column="815" />
+                  <folding>
+                    <element signature="e#116459#117974#1" expanded="true" />
+                    <element signature="e#118168#123487#1" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -72,8 +100,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/first_page_js.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="657">
-                  <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+                <state relative-caret-position="-2358">
+                  <caret line="75" column="8" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
                   <folding>
                     <element signature="n#!!block;n#getSecond#0" />
                     <element signature="n#!!block;n#showTime#0" />
@@ -85,8 +113,17 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Vladstudio.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="5468">
-                  <caret line="237" column="22" lean-forward="true" selection-start-line="237" selection-start-column="22" selection-end-line="237" selection-end-column="22" />
+                <state relative-caret-position="270">
+                  <caret line="295" column="29" selection-start-line="295" selection-start-column="23" selection-end-line="295" selection-end-column="29" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/vladstudiocss.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="650">
+                  <caret line="790" lean-forward="true" selection-start-line="790" selection-end-line="790" />
                 </state>
               </provider>
             </entry>
@@ -94,8 +131,33 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Vladstudio_files/css.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="291">
-                  <caret line="706" column="9" selection-start-line="706" selection-start-column="9" selection-end-line="706" selection-end-column="9" />
+                <state relative-caret-position="232">
+                  <caret line="1308" column="17" selection-start-line="1308" selection-start-column="17" selection-end-line="1308" selection-end-column="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/erhablog.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret line="181" selection-start-line="181" selection-end-line="181" />
+                  <folding>
+                    <element signature="n#div#2;n#div#1;n#div#0;n#li#0;n#ul#0;n#div#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/test.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-8">
+                  <caret line="81" selection-start-line="81" selection-end-line="81" />
+                  <folding>
+                    <element signature="n#style#0;n#li#3;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -120,7 +182,21 @@
       <find>speech-bubble</find>
       <find>hidden</find>
       <find>quote</find>
+      <find>panel</find>
+      <find>index-post-img</find>
+      <find>text-muted</find>
+      <find>post-item-foot-icon</find>
+      <find>app-header</find>
+      <find>head</find>
+      <find>player.prev()</find>
+      <find>navbar-header</find>
+      <find>pull-right</find>
       <find>speech-bubble hidden</find>
+      <find>main_menu</find>
+      <find>main</find>
+      <find>header</find>
+      <find>box</find>
+      <find>latest</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -131,19 +207,20 @@
       <list>
         <option value="$PROJECT_DIR$/vladstudiocss.css" />
         <option value="$PROJECT_DIR$/vladstudiojs.js" />
-        <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/test.js" />
         <option value="$PROJECT_DIR$/js/lunbo.js" />
-        <option value="$PROJECT_DIR$/firsr_page.html" />
+        <option value="$PROJECT_DIR$/test.html" />
+        <option value="$PROJECT_DIR$/picture_lunbotest.html" />
         <option value="$PROJECT_DIR$/first_page_js.js" />
+        <option value="$PROJECT_DIR$/firsr_page.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="x" value="2377" />
+    <option name="y" value="128" />
+    <option name="width" value="975" />
+    <option name="height" value="882" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -151,7 +228,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,24 +235,21 @@
               <item name="Ventura" type="b2602c69:ProjectViewProjectNode" />
               <item name="Ventura" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Ventura" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ventura" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/firsr_page.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RunDashboard">
@@ -212,24 +285,25 @@
       <workItem from="1545977269640" duration="4864000" />
       <workItem from="1545987944215" duration="4490000" />
       <workItem from="1546087882773" duration="19000" />
-      <workItem from="1546404336699" duration="8184000" />
+      <workItem from="1546404336699" duration="21474000" />
+      <workItem from="1546529920833" duration="4004000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33801000" />
+    <option name="totallyTimeSpent" value="51095000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.09048877" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.090094835" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289183" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39955848" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -245,32 +319,7 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/first_page_js.js</url>
-          <line>39</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/first_page_js.js</url>
-          <line>33</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vladstudiocss.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="763" lean-forward="true" selection-start-line="763" selection-end-line="763" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../Vladstudio.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="31">
@@ -300,13 +349,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="7" column="7" selection-start-line="6" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Vladstudio_files/tag.js.下载">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -323,20 +365,6 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Vladstudio_files/js.js.下载" />
-    <entry file="file://$PROJECT_DIR$/../../二哈's Blog - 一只傻傻的二哈.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vladstudio_files/css.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="706" column="9" selection-start-line="706" selection-start-column="9" selection-end-line="706" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/jquery-3.3.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="31">
@@ -344,31 +372,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vladstudio.html">
+    <entry file="file://$PROJECT_DIR$/erhablog_files/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erhablog_files/function.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erhablog_files/handsome.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5468">
-          <caret line="237" column="22" lean-forward="true" selection-start-line="237" selection-start-column="22" selection-end-line="237" selection-end-column="22" />
+        <state>
+          <caret column="815" selection-start-column="815" selection-end-column="815" />
+          <folding>
+            <element signature="e#116459#117974#1" expanded="true" />
+            <element signature="e#118168#123487#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vladstudio_files/js.js">
+    <entry file="file://$PROJECT_DIR$/erhablog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="28" selection-start-line="28" selection-end-line="28" selection-end-column="1" />
+        <state>
+          <caret line="181" selection-start-line="181" selection-end-line="181" />
+          <folding>
+            <element signature="n#div#2;n#div#1;n#div#0;n#li#0;n#ul#0;n#div#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+          <folding>
+            <element signature="n#style#0;n#li#3;n#ul#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/lunbo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        <state relative-caret-position="-2280">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../二哈's Blog - 一只傻傻的二哈.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1109">
+          <caret line="833" selection-start-line="833" selection-end-line="833" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vladstudio_files/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="40" column="3" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vladstudio_files/css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="1308" column="17" selection-start-line="1308" selection-start-column="17" selection-end-line="1308" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/erhablog_files/vs.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vladstudio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="295" column="29" selection-start-line="295" selection-start-column="23" selection-end-line="295" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vladstudiocss.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="790" lean-forward="true" selection-start-line="790" selection-end-line="790" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/first_page_js.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="657">
-          <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+        <state relative-caret-position="-2358">
+          <caret line="75" column="8" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
           <folding>
             <element signature="n#!!block;n#getSecond#0" />
             <element signature="n#!!block;n#showTime#0" />
@@ -376,15 +466,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/picture_lunbotest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1025">
+          <caret line="128" column="23" lean-forward="true" selection-start-line="128" selection-start-column="23" selection-end-line="128" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/firsr_page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="161" column="35" lean-forward="true" selection-start-line="161" selection-start-column="35" selection-end-line="161" selection-end-column="35" />
+        <state relative-caret-position="411">
+          <caret line="157" column="29" selection-start-line="157" selection-start-column="29" selection-end-line="157" selection-end-column="29" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>

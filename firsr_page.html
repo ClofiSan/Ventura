@@ -8,18 +8,18 @@
             display: none;
         }
         .container{
+            border: 2px solid black;
             width: max-content;
             margin-left: auto;
             margin-right: auto;
             margin-top: 100px;
         }
-        #nav_head{
-
-        }
         #nav{
+
             display: inline;
-        }
+          }
         #nav nav li{
+            /**/
             display: inline-block;
             line-height: 60px;
             width: 100px;
@@ -29,13 +29,6 @@
             text-decoration: none;
             font-size: 1em;
             transition:background 0.5s linear;
-        }
-        #nav nav ul a:hover{
-            background-color: blue;
-        }
-        #for_search{
-            position: absolute;
-            right: 400px;
         }
         #self_introduct {
 
@@ -106,10 +99,153 @@
         .author{
             text-align: right;
         }
+        #blog_index{
+            border: 2px solid black;
+            background-color: rgba(255,250,225,0.5);
+        }
+        .blog_list{
+            margin: 0 20px 0 20px;
+            /*border: 2px solid black;*/
+        }
+        .blog_images img{
+            border-radius:10%;
+            width: 500px;
+            height: 250px;
+        }
+        .blog_box{
+            /*边线阴影*/
+            border-radius: 10%;
+            margin: 20px 20px 20px 20px ;
+            /*border: 1px solid black;*/
+            background-color: white;
+            box-shadow: 1px 1px 5px 5px rgba(255, 112, 173, 0.35);
+
+        }
+        .blog_box h2{
+            text-align: center;
+        }
+        #nav_header{
+            width: max-content;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #nav_header header{
+            display: inline-block;
+            background-color: rgba(255,250,225,0.5);
+        }
+        #nav_search{
+            position: absolute;
+            left: 730px;
+        }
+        /*wallpaper*/
+
+        #wallpaper_box  {
+            border-radius: 10%;
+            margin: 20px 20px 20px 20px ;
+            /*border: 1px solid black;*/
+            background-color: white;
+            box-shadow: 1px 1px 5px 5px rgba(255, 112, 173, 0.35);
+        }
+        .inner{
+            margin: 0;
+            padding: 0;
+            width: 800px;
+            height: 450px;
+            position: relative;
+            overflow: hidden;
+        }
+        .inner img{
+            border-radius:10%;
+            width: 800px;
+            height: 450px;
+            vertical-align: top;
+            margin: 0;
+            padding: 0
+        }
+        .inner ul {
+            border-radius:10%;
+            width: 1000%;
+            position: absolute;
+            list-style: none;
+            left:0;
+            top: 0;
+            margin: 0;
+            padding: 0
+        }
+        .inner li{
+            float: left;
+            margin: 0;
+            padding: 0
+
+        }
+
+        .inner ol {
+            position: absolute;
+            height: 20px;
+            right: 20px;
+            bottom: 20px;
+            text-align: center;
+            padding: 5px;
+            margin: 0;
+        }
+        .inner ol li{
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            line-height: 20px;
+            background-color: #fff;
+            margin: 5px;
+            cursor: pointer;
+            padding: 0
+
+        }
+        .inner ol .current{
+            background-color: red;
+            margin: 0;
+            padding: 0
+        }
+        #arr{
+            display: none;
+            margin: 0;
+            padding: 0
+        }
+        #arr span{
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            left: 5px;
+            top: 50%;
+            margin-top: -20px;
+            background: #fff;
+            cursor: pointer;
+            line-height: 40px;
+            text-align: center;
+            font-weight: bold;
+            font-family: '黑体';
+            font-size: 30px;
+            color: #000;
+            opacity: 0.5;
+            border: 1px solid #fff;
+            padding: 0
+        }
+        #arr #right {
+            margin: 0;
+            padding: 0;
+            right: 5px;
+            left: auto;
+        }
     </style>
 </head>
 <body>
-    <div class="container" id="nav_head" >
+<div id="nav_header">
+    <header>
+        <div class="navbar">
+            <button id="back_first_button" >
+                <!--开关的样子能不能好看一点-->
+                Gats 的小世界
+                <!--<a href="#"></a>-->
+            </button>
+        </div>
         <div id="nav">
             <nav>
                 <ul>
@@ -120,17 +256,22 @@
                     <a href="">About Me</a></li><li>
                     <a href="">Contact</a></li>
                 </ul>
-
             </nav>
         </div>
-        <div id="for_search">
-            <form action="firsr_page.html" method="get">
-                <input type="search" placeholder="Search Blog">
+        <div id="nav_search">
+            <form action="firsr_page.html"  method="get">
+                <input type="search" placeholder="输入搜索关键字">
                 <input type="submit" value="Search">
+                <!--提交快关的样子能不能好看一点-->
             </form>
 
         </div>
-    </div>
+
+        <div id="video_player">
+
+        </div>
+    </header>
+</div>
     <div class="container" id="self_introduct">
         <!--左边是一张圆形的头像，右边是一点点介绍-->
         <div id="picture">
@@ -145,8 +286,40 @@
             <!--js代码实现时间流动-->
         </div>
     </div>
+    <div class="container" id="blog_index">
+        <!--左边是图片，右边是一些文章的索引-->
+        <!--图片分为几个部分吧,图片只是一个部分，而之后的文字索引又是一个部分-->
+        <!--如果单纯地点击到了container会自己进入blog主页-->
+        <!--索引到有博客网页-->
+        <div id="blog_box">
+            <div class="blog_list">
+                <div class="blog_box">
+                    <a href="" class="blog_images"><img src="imgs/fgo1.jpg" alt=""></a>
+                    <div class="blog_refer">
+                        <h2>博客题目1</h2>
+                        <p>一些叽叽喳的内容</p>
+                    </div>
+                </div>
+                <div class="blog_box">
+                    <a href="" class="blog_images"><img src="imgs/blog2.jpg" alt=""></a>
+                    <div class="blog_refer">
+                        <h2>博客题目2</h2>
+                        <p>一些叽叽喳的内容</p>
+                    </div>
+                </div>
+                <div class="blog_box">
+                    <a href="" class="blog_images"><img src="imgs/blog3.jpg" alt=""></a>
+                    <div class="blog_refer">
+                        <h2>博客题目3</h2>
+                        <p>一些叽叽喳的内容</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
     <div class="container" id="upper_quote_box">
-<!--几个模块要叠加在一起，要有隐藏的和显示的-->
+        <!--几个模块要叠加在一起，要有隐藏的和显示的-->
         <div class="quote_nav" id="previous_quote" onclick="LastQuote()">
             👈
         </div>
@@ -190,31 +363,32 @@
         </div>
 
     </div>
-    <div class="container" id="blog_index">
-        <!--左边是图片，右边是一些文章的索引-->
-        <!--图片分为几个部分吧-->
-        <div id="blog_img_box">
-            <ul>
-                <li><a href=""><img src="" alt=""></a></li>
-                <li><a href=""><img src="" alt=""></a></li>
-                <li><a href=""><img src="" alt=""></a></li>
-            </ul>
+    <div class="container" id="wallpaper_container">
+        <!--&lt;!&ndash;这个地方可以做成轮播效果&ndash;&gt;-->
+        <!--&lt;!&ndash;轮播的&ndash;&gt;-->
+        <div id="wallpaper_box">
+            <div class="inner">
+                <!--轮播图-->
+                <ul id="wallpaper_list">
+                    <li><a href="#"><img src="imgs/bg.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="imgs/bg2.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="imgs/bg3.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="imgs/bg4.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="imgs/bg5.jpg" alt=""></a></li>
+                </ul>
+                <ol class="bar"></ol>
+                <!--左右焦点-->
+                <div id="arr">
+                    <span id="left">
+                        <
+                    </span>
+                    <span id="right">
+                        >
+                    </span>
+                </div>
+            </div>
         </div>
-        <div id="blog_index_box">
-            <ul>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-            </ul>
-        </div>
-    </div>
-    <div class="container" id="wallpaper">
-        <div class="wallpaper_img" id="wallpaper_img1">
-            <img src="" alt=""></div>
-        <div class="wallpaper_img" id="wallpaper_img2">
-            <img src="" alt=""></div>
-        <div class="wallpaper_img" id="wallpaper_img3">
-            <img src="" alt=""></div>
+
     </div>
 </body>
 <script type="text/javascript" src="first_page_js.js"></script>

@@ -1,16 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <script type="text/javascript" src="js/jquery-3.3.1.min.js" ></script>
+    <meta charset="utf-8">
+    <title>自学教程(如约智惠.com)</title>
+    <style>
+        body {margin:0;}
+        ul
+        {
+            list-style-type:none;
+            margin:0;
+            padding:0;
+            overflow:hidden;
+            background-color:#333;
+            position:fixed;
+            top:0px;
+            width:100%;
+        }
+        li
+        {
+            float:left;
+            border-right:1px solid #bbb;
+        }
+        li:list-child{
+            border-right:none;
+        }
+        li a
+        {
+            display:block;
+            color:white;
+            text-align:center;
+            padding:14px 16px;
+            text-decoration:none;
+        }
+        li a:hover：not(.active)
+        {
+            background-color:#111;
+        }
 
+        .active {
+            background-color:#4CAF50;
+        }
+    </style>
 </head>
 <body>
-    <script type="text/javascript">
-        $(function(){
-            alert('helloworld');
-        });
-    </script>
+<ul>
+    <li><a class="active" href="#home">主页</a></li>
+    <li><a href="#news">新闻</a></li>
+    <li><a href="#contact">联系</a></li>
+    <li style="float:right"><a  href="#about">关于</a></li>
+</ul>
+
+<div style="padding:20px;margin-top:30px;background-color:#1abc9c;height:1500px;">
+    <h1>Fixed Top Navigation Bar</h1>
+    <h2>Scroll this page to see the effect</h2>
+    <h2>The navigation bar will stay at the top of the page while scrolling</h2>
+
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+    <p>Some text some text some text some text..</p>
+</div>
+
 </body>
 </html>

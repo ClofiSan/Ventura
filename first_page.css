@@ -23,40 +23,41 @@ body{
 }
 /*introduction*/
 #self_introduct {
-
-}
-#picture{
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-}
-#picture img{
-    width: 50px;
-    height: 50px;
-    border-radius:50%;
-
+    background-color: rgba(255,255,204,0.3);
+    width: 55%;
 }
 #intro{
-    display: inline-block;
-    width: 400px;
-    vertical-align: top;
-    padding-left: 20px;
+
+    padding-top: 50px;
+    padding-bottom: 10px;
+    border-bottom: black;
+    text-align: center;
+}
+#intro h1{
+    font-family: "Hiragino Sans GB", fantasy;
+    font-size:2.0em;
+    color: black;
 }
 #time{
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
-    text-align: center  ;
+    text-align: center ;
 }
 /*quotes*/
+#face{
+    font-size: 2.0em;
+    margin-bottom: 10px;
+}
 #upper_quote_box{
-    display: flex;
+    display: block;
+    margin-top: 20px;
 }
 #box{
     /*也就是要box进行设定*/
-    flex: 1;
-    width: 100%;
+    display: inline-block;
+    width: 60%;
     /*border: 2px solid #000000;*/
     flex-wrap: nowrap;
     margin-bottom: 20px;
@@ -66,9 +67,10 @@ body{
 .quote_nav{
     /*把nav写好，然后调试js */
     /*设置bg 各种属性*/
+    display: inline-block;
     height: 50px;
     width: 80px;
-    background-color: #FFFFCC;
+    background-color: rgba(255,255,204,0.3);
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.11);
     text-align: center;
     font-size: 1.8em;
@@ -80,10 +82,14 @@ body{
 .quote_box{
     /*隐藏的实现方法有问题*/
     flex: 1;
-    background: #fff;
+    background-color: rgba(255,255,204,0.3);
     box-shadow: 1px 1px 5px 5px rgba(255,51,51,0.5);
     position: relative;
 }
+.quote_box:hover{
+    background-color: white;
+}
+
 .content{
     text-align: left;
     font-size: 1.2em;
@@ -97,6 +103,7 @@ body{
 #blog_index{
     /*border: 2px solid black;*/
     /*background-color: #FFFFCC;*/
+    margin-top: 20px;
 }
 .blog_list{
     margin: 0 20px 0 20px;
@@ -130,6 +137,9 @@ body{
     max-height: 100%;
     max-width: 100%;
 }
+.blog_box:hover{
+    background-color: white;
+}
 /*.blog_box img:hover{*/
     /*position: absolute;*/
     /*width: 450px;*/
@@ -144,104 +154,57 @@ body{
 #wallpaper_box  {
     /*margin: 20px 20px 20px 20px ;*/
     /*border: 1px solid black;*/
+    border-radius: 10%;
     background-color: white;
     box-shadow: 1px 1px 5px 5px rgba(255,51,51,0.5);
-    height: 500px;
+    height: 400px;
 }
-.inner{
-    margin: 0;
-    padding: 0;
+.mySlides{
+    border-radius: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
     width: 100%;
-    height: 100%;
-    /*width: auto;*/
-    /*height: auto;*/
-    /*max-height: 100%;*/
-    /*max-width: 100%;*/
-    position: relative;
-    overflow: hidden;
+    height: 400px;
 }
-.inner img{
-    width: 100%;
-    height: 100%;
-    /*width: auto;*/
-    /*height: auto;*/
-    /*max-height: 100%;*/
-    /*max-width: 100%;*/
-    vertical-align: top;
-    margin: 0;
-    padding: 0
+.slide_active{
+    display: block;
+    border-radius: 10%;
 }
-.inner ul {
-    border-radius:10%;
-    width: 1000%;
-    position: absolute;
-    list-style: none;
-    left:0;
-    top: 0;
-    margin: 0;
-    padding: 0
-}
-.inner li{
-    float: left;
-    margin: 0;
-    padding: 0
-
-}
-
-.inner ol {
-    position: absolute;
-    height: 20px;
-    right: 20px;
-    bottom: 20px;
-    text-align: center;
-    padding: 5px;
-    margin: 0;
-}
-.inner ol li{
+.dot{
+    border-radius: 10%;
+    background-color: rgba(255,102,51,0.4);
+    list-style-type: none;
     display: inline-block;
+    margin-left: 10px;
     width: 20px;
     height: 20px;
-    line-height: 20px;
-    background-color: #fff;
-    margin: 5px;
-    cursor: pointer;
-    padding: 0
-
 }
-.inner ol .current{
-    background-color: red;
-    margin: 0;
-    padding: 0
+.dot:hover{
+    background-color: rgba(255,102,51,0.7);
 }
-#arr{
-    display: none;
-    margin: 0;
-    padding: 0
-}
-#arr span{
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    left: 5px;
-    top: 50%;
-    margin-top: -20px;
-    background: #fff;
-    cursor: pointer;
-    line-height: 40px;
+.dots{
+    border-radius: 10%;
+    background-color: rgba(255,255,204,0.3);
+    /*margin-left: 20%;*/
     text-align: center;
-    font-weight: bold;
-    font-family: '黑体';
-    font-size: 30px;
-    color: #000;
-    opacity: 0.5;
-    border: 1px solid #fff;
-    padding: 0
+    margin-top: -50px;
 }
-#arr #right {
-    margin: 0;
-    padding: 0;
-    right: 5px;
-    left: auto;
+.dot_active{
+    border-radius: 10%;
+    background-color: rgba(255,102,51,0.4);
+}
+.wallpaper_slide{
+    border-radius: 10%;
+    box-shadow: 1px 1px 5px 5px rgba(255,51,51,0.5);
+    height: 400px;
+}
+
+.wallpaper_slide img{
+    border-radius: 10%;
+    width: 100%;
+    height: 400px;
+
 }
 /*nav*/
 #nav{

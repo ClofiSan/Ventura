@@ -8,6 +8,9 @@
 
         @import "Global.css";
         @import "first_page.css";
+        .wallpaper_slide{
+            margin-top: 20px;
+        }
     </style>
 
 </head>
@@ -45,23 +48,6 @@
             </div>
         </header>
     </div>
-
-
-    <div class="container" id="self_introduct">
-        <!--左边是一张圆形的头像，右边是一点点介绍-->
-        <div id="picture">
-            <img src="cats.jpg" alt="头像404的日常……" height="150px">
-        </div>
-        <div id="intro">
-            <!--如何让字呈现在右边-->
-            <h2>Hello，欢迎来到Gats的小世界</h2>
-            <p>"我全都要，我全都要，我全都要"</p>
-        </div>
-        <div id="time">
-            <!--js代码实现时间流动-->
-        </div>
-    </div>
-
     <aside id="Right_aside">
         <!--热门文章-->
         <section class="aside_section" id="p_articles">
@@ -200,34 +186,64 @@
         </section>
     </aside>
 
-    <div class="container" id="wallpaper_container">
-        <!--让别人知道这个是壁纸-->
-        <div id="wallpaper_box">
-            <div class="inner">
-                <!--轮播图-->
-                <ul id="wallpaper_list">
-                    <li><a href="#"><img src="imgs/bg.jpg" alt=""></a></li>
-                    <li><a href="#"><img src="imgs/bg2.jpg" alt=""></a></li>
-                    <li><a href="#"><img src="imgs/bg3.jpg" alt=""></a></li>
-                    <li><a href="#"><img src="imgs/bg4.jpg" alt=""></a></li>
-                    <li><a href="#"><img src="imgs/bg5.jpg" alt=""></a></li>
-                </ul>
-                <ol class="bar"></ol>
-                <!--左右焦点-->
-                <div id="arr">
-                    <span id="left">
-                        <
-                    </span>
-                    <span id="right">
-                        >
-                    </span>
+    <div class="container" id="self_introduct">
+        <!--左边是一张圆形的头像，右边是一点点介绍-->
+        <div id="intro">
+            <!--如何让字呈现在右边-->
+            <h1>Hello，欢迎来到范图喵的小世界</h1>
+            <p>收录了各式各样的文章和有趣的壁纸,还有些内容等待进一步开发哦</p>
+        </div>
+        <div id="time">
+            <!--js代码实现时间流动-->
+        </div>
+    </div>
+
+    <div class="container" id="upper_quote_box">
+        <!--几个模块要叠加在一起，要有隐藏的和显示的-->
+        <div id="face">
+            😀
+        </div>
+        <div class="quote_nav" id="previous_quote" onclick="LastQuote()">
+            👈
+        </div>
+        <div id="box">
+            <div class="quote_box">
+                <div class="content" style="text-align: center">
+                    "你好啊,遇见你真开心!"
                 </div>
+                <div class="author"></div>
+            </div>
+            <div class="quote_box hidden">
+                <div class="content" style="text-align: center">
+                    "下面是一些不错的壁纸哦."
+                </div>
+                <div class="author"></div>
+            </div>
+            <div class="quote_box hidden">
+                <div class="content" style="text-align: center">
+                   "然后是一些文章啦."
+                </div>
+                <div class="author"></div>
+            </div>
+            <div class="quote_box hidden">
+                <div class="content" style="text-align: center">
+                    "觉得不错记得给我高分哦."
+                </div>
+                <div class="author"></div>
+            </div>
+            <div class="quote_box hidden">
+                <div class="content" style="text-align: center">
+                    "高分哦!" <br>
+                </div>
+                <div class="author"></div>
             </div>
         </div>
 
+        <div class="quote_nav" id="next_quote" onclick="NextQuote()">
+            👉
+        </div>
+
     </div>
-
-
 
     <div class="container" id="blog_index">
         <!--左边是图片，右边是一些文章的索引-->
@@ -262,49 +278,7 @@
         </div>
     </div>
 
-    <div class="container" id="upper_quote_box">
-        <!--几个模块要叠加在一起，要有隐藏的和显示的-->
-        <div class="quote_nav" id="previous_quote" onclick="LastQuote()">
-            👈
-        </div>
-        <div id="box">
-            <div class="quote_box">
-                <div class="content">
-                    "男人要看向远方，不然女人就会看向远方！"
-                </div>
-                <div class="author">by 教主</div>
-            </div>
-            <div class="quote_box hidden">
-                <div class="content">
-                    “男人不要有欲望，要有志向。”
-                </div>
-                <div class="author">by 教主</div>
-            </div>
-            <div class="quote_box hidden">
-                <div class="content">
-                    何人为我楚舞，听我楚狂之声！
-                </div>
-                <div class="author">辛弃疾《水调歌头》</div>
-            </div>
-            <div class="quote_box hidden">
-                <div class="content">
-                    我们都生活在阴沟里，但仍有人仰望星空。
-                </div>
-                <div class="author">王尔德</div>
-            </div>
-            <div class="quote_box hidden">
-                <div class="content">
-                    传奇已死,英雄犹在。 <br>
-                </div>
-                <div class="author">正是在下</div>
-            </div>
-        </div>
 
-        <div class="quote_nav" id="next_quote" onclick="NextQuote()">
-            👉
-        </div>
-
-    </div>
 
 
     <!--如何让边栏成为全局的？-->

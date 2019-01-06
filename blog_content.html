@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>范图喵的博客</title>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
     <style type="text/css">
         @import "Global.css";
         @import "first_page.css";
@@ -10,12 +11,19 @@
         @import "blog_content.css";
         #article_content{
             text-align: left;
-            margin-top: 0;
+            margin-top: 20px;
             background-color: rgba(255,250,225,0.4);
+            border-radius: 5%;
         }
         #intro{
             text-align: left;
-            width: 90%;
+
+        }
+        #self_introduct{
+            border-radius: 10%;
+            box-shadow: 1px 1px 5px 5px rgba(255,51,51,0.5);
+            padding-bottom: 10px;
+            width: 55%;
         }
     </style>
 </head>
@@ -51,18 +59,6 @@
         </div>
     </header>
 </div>
-<div class="container" id="self_introduct">
-    <!--左边是一张圆形的头像，右边是一点点介绍-->
-    <div id="intro">
-        <!--如何让字呈现在右边-->
-        <h1>利用ARCore Sceneform在android手机上实现简单的view渲染</h1>
-    </div>
-
-    <div id="time">
-        <!--js代码实现时间流动-->
-    </div>
-</div>
-
 <aside id="Right_aside">
     <!--热门文章-->
     <section class="aside_section" id="p_articles">
@@ -200,6 +196,26 @@
         </div>
     </section>
 </aside>
+<div class="container" id="self_introduct">
+    <!--左边是一张圆形的头像，右边是一点点介绍-->
+    <div id="intro" style="text-align: center">
+        <!--如何让字呈现在右边-->
+        <h1>利用ARCore Sceneform在android手机上实现简单的view渲染</h1>
+    </div>
+
+    <div class="article-meta">
+        <i class="fa fa-calendar fa-fw"></i>
+        <span class="article-meta-time">2018.12.31&nbsp;&nbsp;</span>
+        <i class="fa fa-heart fa-fw"></i>
+        <span class="article-meta-heart">12&nbsp;&nbsp;</span>
+        <i class="fa fa-comments fa-fw"></i>
+        <span class="article-meta-heart">0&nbsp;&nbsp;</span>
+        <i class="fa fa-eye fa-fw"></i>
+        <span class="article-meta-heart">600&nbsp;&nbsp;</span>
+    </div>
+</div>
+
+
 <div id='article_content' class="container" >
     <div id="article_img_box"><img id="article_img" src="imgs/blog3.jpg" alt=""></div>
     <article class="blog_article">

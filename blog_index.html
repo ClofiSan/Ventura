@@ -10,6 +10,17 @@
         #blog_index{
             padding-top: 30px;
         }
+        .wallpaper_slide{
+            margin-top: 20px;
+            border-radius: 10%;
+        }
+        #wallpaper_tags{
+            border-radius: 10%;
+            margin-top: 20px;
+        }
+        #blog_index{
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
@@ -181,6 +192,63 @@
         </div>
     </section>
 </aside>
+<div class="container" id="self_introduct">
+    <!--左边是一张圆形的头像，右边是一点点介绍-->
+    <div id="intro">
+        <!--如何让字呈现在右边-->
+        <h1>Blogs and Article</h1>
+    </div>
+
+
+</div>
+<div class="container wallpaper_slide">
+    <li class="mySlides slide_active"><img src="imgs/bg.jpg" alt=""></li>
+    <li class="mySlides "><img src="imgs/bg2.jpg" alt=""></li>
+    <li class="mySlides "><img src="imgs/bg3.jpg" alt=""></li>
+    <li class="mySlides "><img src="imgs/bg4.jpg" alt=""></li>
+    <li class="mySlides "><img src="imgs/bg5.jpg" alt=""></li>
+
+    <div class="dots">
+        <ul>
+            <li class="dot dot_active" onclick="showPicture(0)">1</li>
+            <li class="dot" onclick="showPicture(1)">2</li>
+            <li class="dot" onclick="showPicture(2)">3</li>
+            <li class="dot" onclick="showPicture(3)">4</li>
+            <li class="dot" onclick="showPicture(4)">5</li>
+        </ul>
+    </div>
+</div>
+<div id="wallpaper_tags" class="container">
+    <h2>分类</h2>
+    <div class="tag">
+        <ul>
+            <li><a href="">热门</a></li>
+            <li><a href="">最近</a></li>
+            <li><a href="">好评</a></li>
+        </ul>
+    </div>
+    <div class="tag">
+        <ul>
+            <li><a href="">历史</a></li>
+            <li><a href="">技术</a></li>
+            <li><a href="">文科</a></li>
+            <li><a href="">小故事</a></li>
+            <li><a href="">随笔</a></li>
+        </ul>
+    </div>
+    <div class="tag">
+        <ul>
+            <li><a href="">Android</a></li>
+            <li><a href="">ARCore</a></li>
+            <li><a href="">TensorFlow</a></li>
+            <li><a href="">罗马</a></li>
+            <li><a href="">拿破仑</a></li>
+            <li><a href="">实验室日常</a></li>
+            <li><a href="">噗噗噗</a></li>
+        </ul>
+    </div>
+
+</div>
 <div class="container" id="blog_index">
     <!--左边是图片，右边是一些文章的索引-->
     <!--图片分为几个部分吧,图片只是一个部分，而之后的文字索引又是一个部分-->
@@ -214,4 +282,5 @@
     </div>
 </div>
 </body>
+<script type="text/javascript" src="js/first_page_js.js"></script>
 </html>

@@ -1,0 +1,310 @@
+html{
+    background:url("imgs/bg3.jpg");
+    /*background: url("bg_star1.jpg");*/
+    background-attachment:fixed;
+}
+body{
+    margin-top: -2%;
+    margin-left: 10% ;
+    margin-right: 10%;
+    background-color: rgba(255,250,225,0.3);
+    text-align: center;
+}
+.main{
+}
+.hidden{
+    display: none;
+}
+.container {
+    width: 55%;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 8%;
+}
+/*introduction*/
+#self_introduct {
+
+}
+#picture{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+#picture img{
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
+
+}
+#intro{
+    display: inline-block;
+    width: 400px;
+    vertical-align: top;
+    padding-left: 20px;
+}
+#time{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    text-align: center  ;
+}
+/*quotes*/
+#upper_quote_box{
+    display: flex;
+}
+#box{
+    /*也就是要box进行设定*/
+    flex: 1;
+    width: 100%;
+    /*border: 2px solid #000000;*/
+    flex-wrap: nowrap;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.quote_nav{
+    /*把nav写好，然后调试js */
+    /*设置bg 各种属性*/
+    height: 50px;
+    width: 80px;
+    background-color: #FFFFCC;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.11);
+    text-align: center;
+    font-size: 1.8em;
+    vertical-align: center;
+}
+.quote_nav:hover{
+    background-color:rgba(255,255,255,0.8);
+}
+.quote_box{
+    /*隐藏的实现方法有问题*/
+    flex: 1;
+    background: #fff;
+    box-shadow: 1px 1px 5px 5px rgba(255,51,51,0.5);
+    position: relative;
+}
+.content{
+    text-align: left;
+    font-size: 1.2em;
+    padding: 30px;
+    margin: 0 20px;
+}
+.author{
+    text-align: right;
+}
+/*bolg index*/
+#blog_index{
+    /*border: 2px solid black;*/
+    /*background-color: #FFFFCC;*/
+}
+.blog_list{
+    margin: 0 20px 0 20px;
+    /*border: 2px solid black;*/
+}
+.blog_images img{
+    border-radius:10%;
+    /*width: 400px;*/
+    /*height: 200px;*/
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+/*.blog_images img:hover{*/
+    /*position: absolute;*/
+    /*width: 450px;*/
+    /*height: 250px;*/
+/*}*/
+
+.blog_box{
+    /*边线阴影*/
+    border-radius: 10%;
+    margin: 20px 20px 20px 20px ;
+    /*border: 1px solid black;*/
+    background-color: rgba(255,255,204,0.3);
+    box-shadow: 1px 1px 5px 5px rgba(255,51,51,0.5);
+    /*box-shadow: 1px 1px 5px 5px rgba(255, 112, 173, 0.35);*/
+    width: auto;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+/*.blog_box img:hover{*/
+    /*position: absolute;*/
+    /*width: 450px;*/
+    /*height: 250px;*/
+/*}*/
+
+.blog_box h2{
+    text-align: left;
+}
+/*wallpaper*/
+
+#wallpaper_box  {
+    /*margin: 20px 20px 20px 20px ;*/
+    /*border: 1px solid black;*/
+    background-color: white;
+    box-shadow: 1px 1px 5px 5px rgba(255,51,51,0.5);
+    height: 500px;
+}
+.inner{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    /*width: auto;*/
+    /*height: auto;*/
+    /*max-height: 100%;*/
+    /*max-width: 100%;*/
+    position: relative;
+    overflow: hidden;
+}
+.inner img{
+    width: 100%;
+    height: 100%;
+    /*width: auto;*/
+    /*height: auto;*/
+    /*max-height: 100%;*/
+    /*max-width: 100%;*/
+    vertical-align: top;
+    margin: 0;
+    padding: 0
+}
+.inner ul {
+    border-radius:10%;
+    width: 1000%;
+    position: absolute;
+    list-style: none;
+    left:0;
+    top: 0;
+    margin: 0;
+    padding: 0
+}
+.inner li{
+    float: left;
+    margin: 0;
+    padding: 0
+
+}
+
+.inner ol {
+    position: absolute;
+    height: 20px;
+    right: 20px;
+    bottom: 20px;
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+}
+.inner ol li{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    background-color: #fff;
+    margin: 5px;
+    cursor: pointer;
+    padding: 0
+
+}
+.inner ol .current{
+    background-color: red;
+    margin: 0;
+    padding: 0
+}
+#arr{
+    display: none;
+    margin: 0;
+    padding: 0
+}
+#arr span{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    margin-top: -20px;
+    background: #fff;
+    cursor: pointer;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-family: '黑体';
+    font-size: 30px;
+    color: #000;
+    opacity: 0.5;
+    border: 1px solid #fff;
+    padding: 0
+}
+#arr #right {
+    margin: 0;
+    padding: 0;
+    right: 5px;
+    left: auto;
+}
+/*nav*/
+#nav{
+    display: inline;
+}
+#nav nav ul{
+    list-style-type: none;
+}
+#nav nav li{
+    /**/
+    display: inline-block;
+    line-height: 60px;
+    width: 100px;
+    text-align: center;
+    /*color: #ffffff;*/
+    text-decoration: none;
+    font-size: 1em;
+    transition:background 0.5s linear;
+}
+
+
+#nav_header{
+    top:0;
+    background-color: rgba(255,255,204,0.3);
+    text-align: left;
+    width: 65%;
+    height: 9%;
+    margin-left: 15%;
+    position: fixed;
+    z-index: 9999;
+}
+#nav_header header{
+    margin-top: 10px;
+    margin-bottom: auto;
+    margin-left: 10px;
+    display: inline-block;
+}
+#nav_search{
+    padding-top:20px ;
+    display: inline;
+}
+
+.search {
+    display: inline-block;
+    width: 300px;
+    height: 40px;
+    border-radius: 18px;
+    outline: none;
+    border: 1px solid #ccc;
+    padding-left: 20px;
+    /*position: absolute;*/
+}
+.btn {
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    background: url("search_32px.png") ;
+    top: 14px;
+    left: 285px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+

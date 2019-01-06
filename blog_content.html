@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>范图喵的博客</title>
+    <style type="text/css">
+        @import "Global.css";
+        @import "first_page.css";
+        @import "wallpaper_css.css";
+        @import "blog_content.css";
+        #article_content{
+            text-align: left;
+            margin-top: 0;
+            background-color: rgba(255,250,225,0.4);
+        }
+        #intro{
+            text-align: left;
+            width: 90%;
+        }
+    </style>
+</head>
+<body>
+<div class="sidenav">
+    <div id="sidenav_intro">
+        <a href="" id="sidenav_img"><img src="cats.jpg" alt="" ></a>
+        <p >范图喵</p>
+    </div>
+    <ul>
+        <li><a class="no-active" href="firsr_page.html">首页</a></li>
+        <li><a class="active" href="blog_index.html">博客</a></li>
+        <li><a class="no-active" href="wallpaper_index.html">壁纸</a></li>
+        <li><a href="achieve_inde.html" class="no-active">归档</a></li>
+        <li><a href="">关于</a></li>
+    </ul>
+</div>
+<div id="nav_header">
+    <!--顶栏只需要一个搜索功能，侧栏才是真正的索引-->
+    <header>
+        <div id="nav_search">
+            <form action="firsr_page.html"  method="get">
+                <input class="search" type="text" placeholder="搜索..">
+                <input type="button" class="btn " value="">
+
+                <!--提交快关的样子能不能好看一点-->
+            </form>
+
+        </div>
+
+        <div id="video_player">
+
+        </div>
+    </header>
+</div>
+<div class="container" id="self_introduct">
+    <!--左边是一张圆形的头像，右边是一点点介绍-->
+    <div id="intro">
+        <!--如何让字呈现在右边-->
+        <h1>利用ARCore Sceneform在android手机上实现简单的view渲染</h1>
+    </div>
+
+    <div id="time">
+        <!--js代码实现时间流动-->
+    </div>
+</div>
+
+<aside id="Right_aside">
+    <!--热门文章-->
+    <section class="aside_section" id="p_articles">
+        <!--五篇-->
+        <h2 class="aside_title">热门文章</h2>
+        <ul>
+            <li>
+                <div class="p_article">
+                    <div class="art_img">
+                        <img src="imgs/head1.jpeg" alt="">
+                    </div>
+                    <div class="p_art_name">
+                        <a href="blog_content.html">技术 | 第一份ARCore代码 </a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="p_article">
+                    <div class="art_img">
+                        <img src="imgs/head2.jpeg" alt="">
+                    </div>
+                    <div class="p_art_name">
+                        <a href="">技术 | 战友的初始化：Manjaro配置和安装</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="p_article">
+                    <div class="art_img">
+                        <img src="imgs/head3.jpeg" alt="">
+                    </div>
+                    <div class="p_art_name">
+                        <a href="">读书报告 | 《黑天鹅》：人类认知的反思</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="p_article">
+                    <div class="art_img">
+                        <img src="imgs/head4.jpeg" alt="">
+                    </div>
+                    <div class="p_art_name">
+                        <a href="">历史笔记 | 汉尼拔和西庇阿</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="p_article">
+                    <div class="art_img">
+                        <img src="imgs/head5.jpeg" alt="">
+                    </div>
+                    <div class="p_art_name">
+                        <a href="">小故事 | 翻到了高中时候的情书</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <!--网站信息：文章数目，评论数目，运行天数-->
+    <section class="aside_section" id="infor">
+        <h2 class="aside_title">网站信息</h2>
+        <div id="infor_box">
+            <ul>
+                <li>文章数目：</li>
+                <li>评论数目：</li>
+                <li>运行天数：</li>
+            </ul>
+        </div>
+    </section>
+    <!--可选：标签分类设定-->
+    <section class="aside_section" id="aside_tags">
+        <h2 class="aside_title">标签云</h2>
+        <div class="tag_box">
+            <div class="tag_line">
+                <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                    罗马
+                </a>
+                <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                    优质文章
+                </a>
+                <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                    技术
+                </a>
+
+            </div>
+            <div class="tag_line">
+                <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                    Android
+                </a>
+                <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                    Java
+                </a>
+                <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                    历史
+                </a>
+            </div>
+            <div class="tag_line">
+                <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                    想法
+                </a>
+                <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                    javascript
+                </a>
+                <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                    前端
+                </a>
+
+            </div>
+            <div class="tag_line">
+                <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                    动漫
+                </a>
+                <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                    随笔
+                </a>
+                <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                    中国历史
+                </a>
+
+            </div>
+            <div class="tag_line">
+                <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                    生活
+                </a>
+                <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                    日常
+                </a>
+                <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                    噗噗噗
+                </a>
+
+            </div>
+
+
+        </div>
+    </section>
+</aside>
+<div id='article_content' class="container" >
+    <div id="article_img_box"><img id="article_img" src="imgs/blog3.jpg" alt=""></div>
+    <article class="blog_article">
+        <h2 class="article_h2">需求说明</h2>
+        <p class="article_p">点击ARCore检测到平面,即可出现一个渲染的view</p>
+        <h2 class="article_h2">实现步骤</h2>
+        <p class="article_p">1.在主活动的xml布局中加入一个sceneform的fragment,作为呈现出ar效果的视图<br>
+            首先要添加Sceneform的依赖,在build.gradle(Module:app)中的dependencies 最后添加</p>
+        <div class="article_code">
+            <code >implementation "com.google.ar.sceneform.ux:sceneform-ux:1.5.0"</code>
+        </div>
+        <p class="article_p">
+            在mainfest中添加调用手机摄像头的权限:
+        </p>
+        <div class="article_code" >
+            <code >
+                "<"uses-permission android:name="android.permission.CAMERA" " />"
+                "<"uses-feature android:name="android.hardware.camera.ar" android:required="true" "/>"
+            </code>
+        </div>
+
+        <p class="article_p">
+            在主活动的layout中添加以下代码以直接调用sceneform api中的fragment:
+        </p>
+        <div class="article_code" >
+            <code >
+                "<"fragment
+                <br>android:id="@+id/ux_fragment"
+                <br> android:name="com.google.ar.sceneform.ux.ArFragment"
+                <br> android:layout_width="match_parent"
+                <br> android:layout_height="0dp"
+                <br> app:layout_constraintTop_toTopOf="parent"
+                <br> app:layout_constraintBottom_toTopOf="@id/control"
+                <br> app:layout_constraintVertical_chainStyle="spread"
+                <br> app:layout_constraintVertical_weight="9" "/>"
+            </code>
+        </div>
+
+
+        <p class="article_p">
+            在MainActivity中可以直接调用这个fragment:
+        </p>
+
+        <p class="article_p">
+            可以让这个fragment进行更新,这样就会实时根据手机摄像头拍摄的帧进行改变,同时有渲染物呈现在scene上的话也可以及时进行更新:
+        </p>
+        <div class="article_code" >
+            <code >
+                arFragment.getArSceneView().getScene()
+                <br>.addOnUpdateListener((frameTime -> {
+                <br>arFragment.onUpdate(frameTime);
+                <br>// OnUpdate();
+                <br>}));
+            </code>
+        </div>
+
+
+        <p class="article_p">
+            2.创建要被渲染素材
+            <br>因为这份代码仅仅是为了了解sceneform的应用逻辑,所以我们简单地建立TextView,然后调用sceneform的api渲染出来即可.
+            接下来要做的是在drawble中添加一个"text_block":</p>
+        <div class="article_code" >
+            <code >
+                    ' <'?xml version="1.0" encoding="UTF-8"?>
+                    ' <'shape xmlns:android="http://schemas.android.com/apk/res/android">
+                    '<'solid android:color="#E61976d2"/>
+                    '<'corners android:radius="10dp"/>
+                    "< shape">"
+            </code>
+        </div>
+
+
+        <p class="article_p">
+            然后在layout中创建文件"ar_test_view":</p>
+        <div class="article_code">
+            <code>
+                '<'TextView xmlns:android="http://schemas.android.com/apk/res/android"
+                <br>       android:id="@+id/writeCard"
+                <br>       android:layout_width="wrap_content"
+                <br>       android:layout_height="wrap_content"
+                <br>       android:layout_weight="1"
+                <br>       android:background="@drawable/text_block"
+                <br>       android:gravity="center"
+                <br>       android:orientation="vertical"
+                <br>       android:padding="6dp"
+                <br>       android:text="Hello Sceneform !"
+                <br>       android:textAlignment="center" />
+            </code>
+
+        </div>
+        <p class="article_p">
+            在MainActivity中进行声明:</p>
+        <div class="article_code">
+            <code>
+                private ViewRenderable testRenderable;
+            </code>
+
+        </div>
+        <p class="article_p">
+            3.利用completableFuture实现对渲染线程的异步处理
+            <br>渲染线程并不存在于主线程中,而是利用回调函数在需要的时候(比如点击一下屏幕)进行返回:</p>
+        <div class="article_code">
+            <code>
+                <br>CompletableFuture<'ViewRenderable> wordRender = ViewRenderable
+                <br>.builder()
+                <br>.setView(this,R.layout.ar_test_view)
+                <br>.build();
+
+                <br>//这里可以添加多个线程进行处理
+                <br>CompletableFuture.allOf(
+                <br>wordRender
+                <br>).handle((notUsed, throwable) -> {
+
+                <br>if (throwable!=null){
+                <br>return null;
+                <br>}
+                <br>try {
+                <br>testRenderable = wordRender.get();
+                <br>}catch (InterruptedException|ExecutionException ex){
+
+                <br>}
+                <br>return null;
+
+                <br>});
+            </code>
+
+
+        </div>
+        <p class="article_p">
+            4.为ARCore检测到的平面加入监听器,监听是否有触碰,如果有就加入渲染视图</p>
+        <div class="article_code">
+            <code>
+                arFragment.setOnTapArPlaneListener(
+                <br>(HitResult hitResult, Plane plane, MotionEvent motionEvent)->{
+
+                <br>Anchor anchor = hitResult.createAnchor();
+                <br>AnchorNode anchorNode = new AnchorNode(anchor);
+                <br>anchorNode.setParent(arFragment.getArSceneView().getScene());
+
+                <br>TransformableNode node = new TransformableNode(arFragment.getTransformationSystem());
+                <br>node.setParent(anchorNode);
+
+                <br>node.setRenderable(testRenderable);
+
+
+                <br>node.select();
+
+
+                <br>});
+            </code>
+
+        </div>
+
+
+    </article>
+
+</div>
+<script type="text/javascript" src="content.js"></script>
+</body>
+</html>

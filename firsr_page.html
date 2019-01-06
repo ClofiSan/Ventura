@@ -3,275 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <title>Welcome To Ventura's World!</title>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <style type="text/css">
-        .hidden{
-            display: none;
-        }
-        .container{
-            border: 2px solid black;
-            width: max-content;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: 100px;
-        }
-        #nav{
 
-            display: inline;
-          }
-        #nav nav li{
-            /**/
-            display: inline-block;
-            line-height: 60px;
-            width: 100px;
-            text-align: center;
-            border-right:solid 1px #007fcf;
-            color: #ffffff;
-            text-decoration: none;
-            font-size: 1em;
-            transition:background 0.5s linear;
-        }
-        #self_introduct {
-
-        }
-        #picture{
-            display: inline-block;
-            width: 150px;
-            height: 150px;
-        }
-        #picture img{
-            border-radius:50%;
-
-        }
-        #intro{
-            display: inline-block;
-            width: 400px;
-            vertical-align: top;
-            padding-left: 20px;
-        }
-        #time{
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: 10px;
-            text-align: center  ;
-        }
-        #upper_quote_box{
-            display: flex;
-        }
-        #box{
-            /*也就是要box进行设定*/
-            flex: 1;
-            display: flex;
-            width: 100%;
-            border: 2px solid #000000;
-            flex-wrap: nowrap;
-            margin-bottom: 20px;
-            margin-right: 20px;
-            margin-left: 20px;
-        }
-        .quote_nav{
-            /*把nav写好，然后调试js */
-            /*设置bg 各种属性*/
-            height: 50px;
-            width: 80px;
-            background-color: rgba(255,250,225,0.5);
-            box-shadow: 0 2px 4px 0 rgba(0,0,0,0.11);
-            text-align: center;
-            font-size: 1.8em;
-            vertical-align: center;
-        }
-        .quote_nav:hover{
-            background-color:rgba(255,255,255,0.8);
-        }
-        .quote_box{
-            /*隐藏的实现方法有问题*/
-            flex: 1;
-            background: #fff;
-            border: 1px solid #007fcf;
-            position: relative;
-        }
-        .content{
-            text-align: center;
-            font-size: 1.2em;
-            padding: 30px;
-            margin: 0 20px;
-        }
-        .author{
-            text-align: right;
-        }
-        #blog_index{
-            border: 2px solid black;
-            background-color: rgba(255,250,225,0.5);
-        }
-        .blog_list{
-            margin: 0 20px 0 20px;
-            /*border: 2px solid black;*/
-        }
-        .blog_images img{
-            border-radius:10%;
-            width: 500px;
-            height: 250px;
-        }
-        .blog_box{
-            /*边线阴影*/
-            border-radius: 10%;
-            margin: 20px 20px 20px 20px ;
-            /*border: 1px solid black;*/
-            background-color: white;
-            box-shadow: 1px 1px 5px 5px rgba(255, 112, 173, 0.35);
-
-        }
-        .blog_box h2{
-            text-align: center;
-        }
-        #nav_header{
-            width: max-content;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        #nav_header header{
-            display: inline-block;
-            background-color: rgba(255,250,225,0.5);
-        }
-        #nav_search{
-            position: absolute;
-            left: 730px;
-        }
-        /*wallpaper*/
-
-        #wallpaper_box  {
-            border-radius: 10%;
-            margin: 20px 20px 20px 20px ;
-            /*border: 1px solid black;*/
-            background-color: white;
-            box-shadow: 1px 1px 5px 5px rgba(255, 112, 173, 0.35);
-        }
-        .inner{
-            margin: 0;
-            padding: 0;
-            width: 800px;
-            height: 450px;
-            position: relative;
-            overflow: hidden;
-        }
-        .inner img{
-            border-radius:10%;
-            width: 800px;
-            height: 450px;
-            vertical-align: top;
-            margin: 0;
-            padding: 0
-        }
-        .inner ul {
-            border-radius:10%;
-            width: 1000%;
-            position: absolute;
-            list-style: none;
-            left:0;
-            top: 0;
-            margin: 0;
-            padding: 0
-        }
-        .inner li{
-            float: left;
-            margin: 0;
-            padding: 0
-
-        }
-
-        .inner ol {
-            position: absolute;
-            height: 20px;
-            right: 20px;
-            bottom: 20px;
-            text-align: center;
-            padding: 5px;
-            margin: 0;
-        }
-        .inner ol li{
-            display: inline-block;
-            width: 20px;
-            height: 20px;
-            line-height: 20px;
-            background-color: #fff;
-            margin: 5px;
-            cursor: pointer;
-            padding: 0
-
-        }
-        .inner ol .current{
-            background-color: red;
-            margin: 0;
-            padding: 0
-        }
-        #arr{
-            display: none;
-            margin: 0;
-            padding: 0
-        }
-        #arr span{
-            width: 40px;
-            height: 40px;
-            position: absolute;
-            left: 5px;
-            top: 50%;
-            margin-top: -20px;
-            background: #fff;
-            cursor: pointer;
-            line-height: 40px;
-            text-align: center;
-            font-weight: bold;
-            font-family: '黑体';
-            font-size: 30px;
-            color: #000;
-            opacity: 0.5;
-            border: 1px solid #fff;
-            padding: 0
-        }
-        #arr #right {
-            margin: 0;
-            padding: 0;
-            right: 5px;
-            left: auto;
-        }
+        @import "Global.css";
+        @import "first_page.css";
     </style>
+
 </head>
+
 <body>
-<div id="nav_header">
-    <header>
-        <div class="navbar">
-            <button id="back_first_button" >
-                <!--开关的样子能不能好看一点-->
-                Gats 的小世界
-                <!--<a href="#"></a>-->
-            </button>
+<div class="main">
+    <div class="sidenav">
+        <div id="sidenav_intro">
+            <a href="" id="sidenav_img"><img src="cats.jpg" alt="" ></a>
+            <p >范图喵</p>
         </div>
-        <div id="nav">
-            <nav>
-                <ul>
-                    <li><a href="">Ventura</a></li><li>
-                    <a href="">Blog</a></li><li>
-                    <a href="">Wallpapers</a></li><li>
-                    <a href="">for you</a></li><li>
-                    <a href="">About Me</a></li><li>
-                    <a href="">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div id="nav_search">
-            <form action="firsr_page.html"  method="get">
-                <input type="search" placeholder="输入搜索关键字">
-                <input type="submit" value="Search">
-                <!--提交快关的样子能不能好看一点-->
-            </form>
+        <ul>
+            <li><a class="active" href="firsr_page.html">首页</a></li>
+            <li><a class="no-active" href="blog_index.html">博客</a></li>
+            <li><a class="no-active" href="wallpaper_index.html">壁纸</a></li>
+            <li><a href="achieve_inde.html" class="no-active">归档</a></li>
+            <li><a href="">关于</a></li>
+        </ul>
+    </div>
+    <div id="nav_header">
+        <!--顶栏只需要一个搜索功能，侧栏才是真正的索引-->
+        <header>
+            <div id="nav_search">
+                <form action="firsr_page.html"  method="get">
+                    <input class="search" type="text" placeholder="搜索..">
+                    <input type="button" class="btn " value="">
 
-        </div>
+                    <!--提交快关的样子能不能好看一点-->
+                </form>
 
-        <div id="video_player">
+            </div>
 
-        </div>
-    </header>
-</div>
+            <div id="video_player">
+
+            </div>
+        </header>
+    </div>
+
+
     <div class="container" id="self_introduct">
         <!--左边是一张圆形的头像，右边是一点点介绍-->
         <div id="picture">
@@ -280,12 +55,180 @@
         <div id="intro">
             <!--如何让字呈现在右边-->
             <h2>Hello，欢迎来到Gats的小世界</h2>
-            <p>这里是收录了Gats关于人文社科的想法，技术探索的博客以及一些心血来潮的小故事</p>
+            <p>"我全都要，我全都要，我全都要"</p>
         </div>
         <div id="time">
             <!--js代码实现时间流动-->
         </div>
     </div>
+
+    <aside id="Right_aside">
+        <!--热门文章-->
+        <section class="aside_section" id="p_articles">
+            <!--五篇-->
+            <h2 class="aside_title">热门文章</h2>
+            <ul>
+                <li>
+                    <div class="p_article">
+                        <div class="art_img">
+                            <img src="imgs/head1.jpeg" alt="">
+                        </div>
+                        <div class="p_art_name">
+                            <a href="blog_content.html">技术 | 第一份ARCore代码 </a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p_article">
+                        <div class="art_img">
+                            <img src="imgs/head2.jpeg" alt="">
+                        </div>
+                        <div class="p_art_name">
+                            <a href="">技术 | 战友的初始化：Manjaro配置和安装</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p_article">
+                        <div class="art_img">
+                            <img src="imgs/head3.jpeg" alt="">
+                        </div>
+                        <div class="p_art_name">
+                            <a href="">读书报告 | 《黑天鹅》：人类认知的反思</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p_article">
+                        <div class="art_img">
+                            <img src="imgs/head4.jpeg" alt="">
+                        </div>
+                        <div class="p_art_name">
+                            <a href="">历史笔记 | 汉尼拔和西庇阿</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p_article">
+                        <div class="art_img">
+                            <img src="imgs/head5.jpeg" alt="">
+                        </div>
+                        <div class="p_art_name">
+                            <a href="">小故事 | 翻到了高中时候的情书</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <!--网站信息：文章数目，评论数目，运行天数-->
+        <section class="aside_section" id="infor">
+            <h2 class="aside_title">网站信息</h2>
+            <div id="infor_box">
+                <ul>
+                    <li>文章数目：</li>
+                    <li>评论数目：</li>
+                    <li>运行天数：</li>
+                </ul>
+            </div>
+        </section>
+        <!--可选：标签分类设定-->
+        <section class="aside_section" id="aside_tags">
+            <h2 class="aside_title">标签云</h2>
+            <div class="tag_box">
+                <div class="tag_line">
+                    <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                        罗马
+                    </a>
+                    <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                        优质文章
+                    </a>
+                    <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                        技术
+                    </a>
+
+                </div>
+                <div class="tag_line">
+                    <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                        Android
+                    </a>
+                    <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                        Java
+                    </a>
+                    <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                        历史
+                    </a>
+                </div>
+                <div class="tag_line">
+                    <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                        想法
+                    </a>
+                    <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                        javascript
+                    </a>
+                    <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                        前端
+                    </a>
+
+                </div>
+                <div class="tag_line">
+                    <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                        动漫
+                    </a>
+                    <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                        随笔
+                    </a>
+                    <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                        中国历史
+                    </a>
+
+                </div>
+                <div class="tag_line">
+                    <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                        生活
+                    </a>
+                    <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                        日常
+                    </a>
+                    <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                        噗噗噗
+                    </a>
+
+                </div>
+
+
+            </div>
+        </section>
+    </aside>
+
+    <div class="container" id="wallpaper_container">
+        <!--让别人知道这个是壁纸-->
+        <div id="wallpaper_box">
+            <div class="inner">
+                <!--轮播图-->
+                <ul id="wallpaper_list">
+                    <li><a href="#"><img src="imgs/bg.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="imgs/bg2.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="imgs/bg3.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="imgs/bg4.jpg" alt=""></a></li>
+                    <li><a href="#"><img src="imgs/bg5.jpg" alt=""></a></li>
+                </ul>
+                <ol class="bar"></ol>
+                <!--左右焦点-->
+                <div id="arr">
+                    <span id="left">
+                        <
+                    </span>
+                    <span id="right">
+                        >
+                    </span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
     <div class="container" id="blog_index">
         <!--左边是图片，右边是一些文章的索引-->
         <!--图片分为几个部分吧,图片只是一个部分，而之后的文字索引又是一个部分-->
@@ -318,6 +261,7 @@
 
         </div>
     </div>
+
     <div class="container" id="upper_quote_box">
         <!--几个模块要叠加在一起，要有隐藏的和显示的-->
         <div class="quote_nav" id="previous_quote" onclick="LastQuote()">
@@ -326,7 +270,7 @@
         <div id="box">
             <div class="quote_box">
                 <div class="content">
-                    "男人要看向远方，不然女人就会看向看向远方的男人！"
+                    "男人要看向远方，不然女人就会看向远方！"
                 </div>
                 <div class="author">by 教主</div>
             </div>
@@ -350,11 +294,9 @@
             </div>
             <div class="quote_box hidden">
                 <div class="content">
-                    我所有的自负都源于我的自卑，所有的英雄气概都源于我的软弱。嘴里振振有词，是因为 <br>
-                    心里满是怀疑，深情是因为痛恨自己无情。这世界没有一件事情是虚空而生的。站在光里，<br>
-                    背后就有阴影，这深夜一片寂静，是因为你还没有听见声音。 <br>
+                    传奇已死,英雄犹在。 <br>
                 </div>
-                <div class="author">马良《坦白书》</div>
+                <div class="author">正是在下</div>
             </div>
         </div>
 
@@ -363,34 +305,13 @@
         </div>
 
     </div>
-    <div class="container" id="wallpaper_container">
-        <!--&lt;!&ndash;这个地方可以做成轮播效果&ndash;&gt;-->
-        <!--&lt;!&ndash;轮播的&ndash;&gt;-->
-        <div id="wallpaper_box">
-            <div class="inner">
-                <!--轮播图-->
-                <ul id="wallpaper_list">
-                    <li><a href="#"><img src="imgs/bg.jpg" alt=""></a></li>
-                    <li><a href="#"><img src="imgs/bg2.jpg" alt=""></a></li>
-                    <li><a href="#"><img src="imgs/bg3.jpg" alt=""></a></li>
-                    <li><a href="#"><img src="imgs/bg4.jpg" alt=""></a></li>
-                    <li><a href="#"><img src="imgs/bg5.jpg" alt=""></a></li>
-                </ul>
-                <ol class="bar"></ol>
-                <!--左右焦点-->
-                <div id="arr">
-                    <span id="left">
-                        <
-                    </span>
-                    <span id="right">
-                        >
-                    </span>
-                </div>
-            </div>
-        </div>
 
-    </div>
+
+    <!--如何让边栏成为全局的？-->
+
+</div>
+
 </body>
-<script type="text/javascript" src="first_page_js.js"></script>
+<script type="text/javascript" src="js/first_page_js.js"></script>
 
 </html>

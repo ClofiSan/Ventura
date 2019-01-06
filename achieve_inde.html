@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>Ventura 归档</title>
+    <style type="text/css">
+        @import "Global.css";
+        @import "first_page.css";
+        @import "achieve.css";
+        body{
+
+        }
+        .container{
+            text-align: left;
+            /*background-color: white;*/
+        }
+        #archives{
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+<div class="sidenav">
+    <div id="sidenav_intro">
+        <a href="" id="sidenav_img"><img src="cats.jpg" alt="" ></a>
+        <p >范图喵</p>
+    </div>
+    <ul>
+        <li><a class="no-active" href="firsr_page.html">首页</a></li>
+        <li><a class="no-active" href="blog_index.html">博客</a></li>
+        <li><a class="no-active" href="wallpaper_index.html">壁纸</a></li>
+        <li><a href="#" class="active">归档</a></li>
+        <li><a href="">关于</a></li>
+    </ul>
+</div>
+<div id="nav_header">
+    <!--顶栏只需要一个搜索功能，侧栏才是真正的索引-->
+    <header>
+        <div id="nav_search">
+            <form action="firsr_page.html"  method="get">
+                <input class="search" type="text" placeholder="搜索..">
+                <input type="button" class="btn " value="">
+
+                <!--提交快关的样子能不能好看一点-->
+            </form>
+
+        </div>
+
+        <div id="video_player">
+
+        </div>
+    </header>
+</div>
+<aside id="Right_aside">
+    <!--热门文章-->
+    <section class="aside_section" id="p_articles">
+        <!--五篇-->
+        <h2 class="aside_title">热门文章</h2>
+        <ul>
+            <li>
+                <div class="p_article">
+                    <div class="art_img">
+                        <img src="imgs/head1.jpeg" alt="">
+                    </div>
+                    <div class="p_art_name">
+                        <a href="blog_content.html">技术 | 第一份ARCore代码 </a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="p_article">
+                    <div class="art_img">
+                        <img src="imgs/head2.jpeg" alt="">
+                    </div>
+                    <div class="p_art_name">
+                        <a href="">技术 | 战友的初始化：Manjaro配置和安装</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="p_article">
+                    <div class="art_img">
+                        <img src="imgs/head3.jpeg" alt="">
+                    </div>
+                    <div class="p_art_name">
+                        <a href="">读书报告 | 《黑天鹅》：人类认知的反思</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="p_article">
+                    <div class="art_img">
+                        <img src="imgs/head4.jpeg" alt="">
+                    </div>
+                    <div class="p_art_name">
+                        <a href="">历史笔记 | 汉尼拔和西庇阿</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="p_article">
+                    <div class="art_img">
+                        <img src="imgs/head5.jpeg" alt="">
+                    </div>
+                    <div class="p_art_name">
+                        <a href="">小故事 | 翻到了高中时候的情书</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <!--网站信息：文章数目，评论数目，运行天数-->
+    <section class="aside_section" id="infor">
+        <h2 class="aside_title">网站信息</h2>
+        <div id="infor_box">
+            <ul>
+                <li>文章数目：</li>
+                <li>评论数目：</li>
+                <li>运行天数：</li>
+            </ul>
+        </div>
+    </section>
+    <!--可选：标签分类设定-->
+    <section class="aside_section" id="aside_tags">
+        <h2 class="aside_title">标签云</h2>
+        <div class="tag_box">
+            <div class="tag_line">
+                <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                    罗马
+                </a>
+                <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                    优质文章
+                </a>
+                <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                    技术
+                </a>
+
+            </div>
+            <div class="tag_line">
+                <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                    Android
+                </a>
+                <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                    Java
+                </a>
+                <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                    历史
+                </a>
+            </div>
+            <div class="tag_line">
+                <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                    想法
+                </a>
+                <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                    javascript
+                </a>
+                <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                    前端
+                </a>
+
+            </div>
+            <div class="tag_line">
+                <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                    动漫
+                </a>
+                <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                    随笔
+                </a>
+                <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                    中国历史
+                </a>
+
+            </div>
+            <div class="tag_line">
+                <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                    生活
+                </a>
+                <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                    日常
+                </a>
+                <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                    噗噗噗
+                </a>
+
+            </div>
+
+
+        </div>
+    </section>
+</aside>
+<div class="container" id="self_introduct">
+    <!--左边是一张圆形的头像，右边是一点点介绍-->
+    <div id="intro">
+        <!--如何让字呈现在右边-->
+        <h1>归档栏</h1>
+    </div>
+    <div id="time">
+        <!--js代码实现时间流动-->
+    </div>
+</div>
+<div class="container" id="archives">
+    <h3>2018-12</h3>
+    <table class="archives_table">
+        <tbody class="archive_body">
+            <tr class="archive_tr">
+                <td class="archive_date">
+                    31
+                </td>
+                <td class="archive_name"><a href="">
+                    博客的题目有索引的哦
+                </a>
+                </td>
+            </tr>
+            <tr class="archive_tr">
+                <td class="archive_date">
+                    24
+                </td>
+                <td class="archive_name"><a href="">
+                    博客的题目有索引的哦
+                </a>
+                </td>
+            </tr>
+            <tr class="archive_tr">
+                <td class="archive_date">
+                    22
+                </td>
+                <td class="archive_name"><a href="">
+                    博客的题目有索引的哦
+                </a>
+                </td>
+            </tr>
+            <tr class="archive_tr">
+                <td class="archive_date">
+                    11
+                </td>
+                <td class="archive_name"><a href="">
+                    博客的题目有索引的哦
+                </a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <h3>2018-11</h3>
+    <table class="archives_table">
+        <tbody class="archive_body">
+        <tr class="archive_tr">
+            <td class="archive_date">
+                30
+            </td>
+            <td class="archive_name"><a href="">
+                博客的题目有索引的哦
+            </a>
+            </td>
+        </tr>
+        <tr class="archive_tr">
+            <td class="archive_date">
+                27
+            </td>
+            <td class="archive_name"><a href="">
+                博客的题目有索引的哦
+            </a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <h3>2018-10</h3>
+    <table class="archives_table">
+        <tbody class="archive_body">
+
+        <tr class="archive_tr">
+            <td class="archive_date">
+                15
+            </td>
+            <td class="archive_name"><a href="">
+                博客的题目有索引的哦
+            </a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <h3>2018-9</h3>
+    <table class="archives_table">
+        <tbody class="archive_body">
+        <tr class="archive_tr">
+            <td class="archive_date">
+                26
+            </td>
+            <td class="archive_name"><a href="">
+                博客的题目有索引的哦
+            </a>
+            </td>
+        </tr>
+        <tr class="archive_tr">
+            <td class="archive_date">
+                23
+            </td>
+            <td class="archive_name"><a href="">
+                博客的题目有索引的哦
+            </a>
+            </td>
+        </tr>
+        <tr class="archive_tr">
+            <td class="archive_date">
+                22
+            </td>
+            <td class="archive_name"><a href="">
+                博客的题目有索引的哦
+            </a>
+            </td>
+        </tr>
+        <tr class="archive_tr">
+            <td class="archive_date">
+                19
+            </td>
+            <td class="archive_name"><a href="">
+                博客的题目有索引的哦
+            </a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <h3>2018-8</h3>
+    <table class="archives_table">
+        <tbody class="archive_body">
+        <tr class="archive_tr">
+            <td class="archive_date">
+                23
+            </td>
+            <td class="archive_name"><a href="">
+                博客的题目有索引的哦
+            </a>
+            </td>
+        </tr>
+        <tr class="archive_tr">
+            <td class="archive_date">
+                22
+            </td>
+            <td class="archive_name"><a href="">
+                博客的题目有索引的哦
+            </a>
+            </td>
+        </tr>
+        <tr class="archive_tr">
+            <td class="archive_date">
+                28
+            </td>
+            <td class="archive_name"><a href="">
+                博客的题目有索引的哦
+            </a>
+            </td>
+        </tr>
+        <tr class="archive_tr">
+            <td class="archive_date">
+                10
+            </td>
+            <td class="archive_name"><a href="">
+                博客的题目有索引的哦
+            </a>
+            </td>
+        </tr>
+        <tr class="archive_tr">
+            <td class="archive_date">
+                9
+            </td>
+            <td class="archive_name"><a href="">
+                博客的题目有索引的哦
+            </a>
+            </td>
+        </tr>
+        <tr class="archive_tr">
+            <td class="archive_date">
+                8
+            </td>
+            <td class="archive_name"><a href="">
+                博客的题目有索引的哦
+            </a>
+            </td>
+        </tr>
+        <tr class="archive_tr">
+            <td class="archive_date">
+                7
+            </td>
+            <td class="archive_name"><a href="">
+                博客的题目有索引的哦
+            </a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

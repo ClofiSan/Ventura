@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'myfont1';
+    src: url("CRC55.woff.ttf");
+}
+/*wallpaper_div居中，划出相关的范围*/
+#wallpapers{
+    position: relative;
+
+}
+#wallpaper_title{
+    background-color: rgba(255,255,204,0.3);
+    padding-top: 50px;
+    padding-bottom: 10px;
+    border-bottom: black;
+    text-align: center;
+}
+#wallpaper_title h1{
+    font-family: "Hiragino Sans GB", fantasy;
+   font-size:2.0em;
+    color: black;
+
+}
+#wallpaper_list{
+    top: 20px;
+    padding-top: 20px;
+    display: block;
+    column-count: 3;
+    column-gap: 0;
+    counter-reset: item-counter;
+}
+
+
+.thumb{
+    background-color: rgba(255,255,204,0.3);
+    border-radius: 5%;
+    box-shadow: 1px 1px 5px 5px rgba(255,51,51,0.5);
+    box-sizing: border-box;
+    break-inside: avoid;
+    padding: 5px;
+    margin: 10px;
+    counter-increment: item-counter;
+}
+.thumb_img{
+    border-radius: 5%;
+    width: 100%;
+    height: 40%;
+}
+.thumb_text{
+    width: 90%;
+
+}
+/*tag*/
+#wallpaper_tags{
+    padding: 10px 0 10px 0;
+    top:0;
+    background-color: rgba(255,255,204,0.3);
+
+}
+.tag li {
+    /*height: 25px;*/
+    /*width: 60px;*/
+    padding:5px 15px 5px 5px;
+
+    border-radius: 20%;
+    background-color: rgba(255,102,51,0.4);
+    list-style-type: none;
+    display: inline-block;
+    margin-right:5px ;
+    margin-top: 0;
+    text-align: center;
+    font-family: "Hiragino Sans GB", monospace;
+}
+.tag li:hover{
+    background-color: rgba(255,102,51,0.7);
+}
+.tag li a:hover{
+    color: black;
+}
+.tag{
+    top: 0;
+    text-align: left;
+}

@@ -1,0 +1,35 @@
+#article_img_box{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+/*如何确定长宽比*/
+#article_img{
+    width: 100%;
+    height: 50%;
+    max-height: 50%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#article_content{
+    box-shadow: 1px 1px 5px 5px rgba(255,51,51,0.5);
+    padding: 20px;
+}
+.blog_article{
+
+}
+.article_h2{
+
+}
+.article_p{
+
+}
+.article_code{
+    background-color :rgba(255,250,225,0.5) ;
+
+}
+#article_content article code{
+    padding: 10px;
+    font-family: "Hiragino Sans GB", monospace;
+}

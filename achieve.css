@@ -1,0 +1,31 @@
+/*表格放的大一点,可以加上阴影*/
+/*表格的行要有点不一样*/
+/*a的字体*/
+.archives_table{
+    background-color: rgba(255,255,204,0.5);
+    width: 90%;
+}
+.archive_body{
+
+}
+#archives table tbody tr{
+    height: auto;
+}
+
+#archives table tbody tr:hover{
+    height: auto;
+    background-color: white;
+}
+#archives table tbody tr td{
+
+    height: 30px;
+}
+
+#archives table tbody tr td a{
+    text-decoration: none;
+}
+#archives table tbody tr td a:hover{
+    color: black;
+}
+
+

@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>范图喵的博客箱子</title>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--这一页其实都是壁纸，壁纸如何排版-->
+    <style type="text/css">
+        @import "Global.css";
+        @import "first_page.css";
+        @import "wallpaper_css.css";
+
+    </style>
+</head>
+<body>
+    <!--这个地方放导航-->
+
+    <div class="sidenav">
+        <div id="sidenav_intro">
+            <a href="" id="sidenav_img"><img src="cats.jpg" alt="" ></a>
+            <p >范图喵</p>
+        </div>
+        <ul>
+            <li><a class="no-active" href="firsr_page.html">首页</a></li>
+            <li><a class="no-active" href="blog_index.html">博客</a></li>
+            <li><a class="active" href="wallpaper_index.html">壁纸</a></li>
+            <li><a href="achieve_inde.html" class="no-active">归档</a></li>
+            <li><a href="">关于</a></li>
+        </ul>
+    </div>
+    <div id="nav_header">
+        <!--顶栏只需要一个搜索功能，侧栏才是真正的索引-->
+        <header>
+            <div id="nav_search">
+                <form action="firsr_page.html"  method="get">
+                    <input class="search" type="text" placeholder="搜索..">
+                    <input type="button" class="btn " value="">
+
+                    <!--提交快关的样子能不能好看一点-->
+                </form>
+
+            </div>
+
+            <div id="video_player">
+
+            </div>
+        </header>
+    </div>
+    <aside id="Right_aside">
+        <!--热门文章-->
+        <section class="aside_section" id="p_articles">
+            <!--五篇-->
+            <h2 class="aside_title">热门文章</h2>
+            <ul>
+                <li>
+                    <div class="p_article">
+                        <div class="art_img">
+                            <img src="imgs/head1.jpeg" alt="">
+                        </div>
+                        <div class="p_art_name">
+                            <a href="blog_content.html">技术 | 第一份ARCore代码 </a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p_article">
+                        <div class="art_img">
+                            <img src="imgs/head2.jpeg" alt="">
+                        </div>
+                        <div class="p_art_name">
+                            <a href="">技术 | 战友的初始化：Manjaro配置和安装</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p_article">
+                        <div class="art_img">
+                            <img src="imgs/head3.jpeg" alt="">
+                        </div>
+                        <div class="p_art_name">
+                            <a href="">读书报告 | 《黑天鹅》：人类认知的反思</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p_article">
+                        <div class="art_img">
+                            <img src="imgs/head4.jpeg" alt="">
+                        </div>
+                        <div class="p_art_name">
+                            <a href="">历史笔记 | 汉尼拔和西庇阿</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="p_article">
+                        <div class="art_img">
+                            <img src="imgs/head5.jpeg" alt="">
+                        </div>
+                        <div class="p_art_name">
+                            <a href="">小故事 | 翻到了高中时候的情书</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <!--网站信息：文章数目，评论数目，运行天数-->
+        <section class="aside_section" id="infor">
+            <h2 class="aside_title">网站信息</h2>
+            <div id="infor_box">
+                <ul>
+                    <li>文章数目：</li>
+                    <li>评论数目：</li>
+                    <li>运行天数：</li>
+                </ul>
+            </div>
+        </section>
+        <!--可选：标签分类设定-->
+        <section class="aside_section" id="aside_tags">
+            <h2 class="aside_title">标签云</h2>
+            <div class="tag_box">
+                <div class="tag_line">
+                    <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                        罗马
+                    </a>
+                    <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                        优质文章
+                    </a>
+                    <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                        技术
+                    </a>
+
+                </div>
+                <div class="tag_line">
+                    <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                        Android
+                    </a>
+                    <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                        Java
+                    </a>
+                    <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                        历史
+                    </a>
+                </div>
+                <div class="tag_line">
+                    <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                        想法
+                    </a>
+                    <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                        javascript
+                    </a>
+                    <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                        前端
+                    </a>
+
+                </div>
+                <div class="tag_line">
+                    <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                        动漫
+                    </a>
+                    <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                        随笔
+                    </a>
+                    <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                        中国历史
+                    </a>
+
+                </div>
+                <div class="tag_line">
+                    <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                        生活
+                    </a>
+                    <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                        日常
+                    </a>
+                    <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                        噗噗噗
+                    </a>
+
+                </div>
+
+
+            </div>
+        </section>
+    </aside>
+
+    <div  class="container" id="wallpapers">
+
+
+        <div  id="wallpaper_title">
+            <h1 id="wallpaper_h1">Wallpaper</h1>
+        </div>
+        <!--tags-->
+        <div id="wallpaper_tags">
+            <div class="tag">
+                <ul>
+                    <li><a href="">热门</a></li>
+                    <li><a href="">最近</a></li>
+                    <li><a href="">好评</a></li>
+                </ul>
+            </div>
+            <div class="tag">
+                <ul>
+                    <li><a href="">风景</a></li>
+                    <li><a href="">二次元</a></li>
+                    <li><a href="">游戏</a></li>
+                    <li><a href="">动漫</a></li>
+                    <li><a href="">美少女</a></li>
+                </ul>
+            </div>
+            <div class="tag">
+                <ul>
+                    <li><a href="">星空</a></li>
+                    <li><a href="">夕阳</a></li>
+                    <li><a href="">赛博朋克</a></li>
+                    <li><a href="">天空</a></li>
+                    <li><a href="">中世纪</a></li>
+                    <li><a href="">剑与魔法</a></li>
+                    <li><a href="">种田</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <!--采用瀑布流的方式,添加相关图片的描述和自适应即可-->
+        <!--1.自适应-->
+        <!--附加分2.随机选择图片-->
+        <div id="wallpaper_list">
+            <div class="thumb">
+                <a href="" ><img class="thumb_img" src="" alt=""></a>
+                <div class="thumb_text">
+                    <p>hello 这里是可爱的壁纸哦</p>
+                </div>
+            </div>
+            <div class="thumb">
+                <a href="" ><img class="thumb_img" src="imgs/wallpapers/10.jpg" alt=""></a>
+                <div class="thumb_text">
+                    <p>hello 这里是可爱的壁纸哦</p>
+                </div>
+            </div>
+            <div class="thumb">
+                <a href="" ><img class="thumb_img" src="" alt=""></a>
+                <div class="thumb_text">
+                    <p>hello 这里是可爱的壁纸哦</p>
+                </div>
+            </div>
+            <div class="thumb">
+                <a href="" ><img class="thumb_img" src= alt=""></a>
+                <div class="thumb_text">
+                    <p>hello 这里是可爱的壁纸哦</p>
+                </div>
+            </div>
+            <div class="thumb">
+                <a href="" ><img class="thumb_img" src="" alt=""></a>
+                <div class="thumb_text">
+                    <p>hello 这里是可爱的壁纸哦</p>
+                </div>
+            </div>
+            <div class="thumb">
+                <a href="" ><img class="thumb_img" src="" alt=""></a>
+                <div class="thumb_text">
+                    <p>hello 这里是可爱的壁纸哦</p>
+                </div>
+            </div>
+            <div class="thumb">
+                <a href="" ><img class="thumb_img" src= alt=""></a>
+                <div class="thumb_text">
+                    <p>hello 这里是可爱的壁纸哦</p>
+                </div>
+            </div>
+            <div class="thumb">
+                <a href="" ><img class="thumb_img" src="" alt=""></a>
+                <div class="thumb_text">
+                    <p>hello 这里是可爱的壁纸哦</p>
+                </div>
+            </div>
+            <div class="thumb">
+                <a href="" ><img class="thumb_img" src="" alt=""></a>
+                <div class="thumb_text">
+                    <p>hello 这里是可爱的壁纸哦</p>
+                </div>
+            </div>
+            <div class="thumb">
+                <a href="" ><img class="thumb_img" src= alt=""></a>
+                <div class="thumb_text">
+                    <p>hello 这里是可爱的壁纸哦</p>
+                </div>
+            </div>
+            <div class="thumb">
+                <a href="" ><img class="thumb_img" src="" alt=""></a>
+                <div class="thumb_text">
+                    <p>hello 这里是可爱的壁纸哦</p>
+                </div>
+            </div>
+            <div class="thumb">
+                <a href="" ><img class="thumb_img" alt=""></a>
+                <div class="thumb_text">
+                    <p>hello 这里是可爱的壁纸哦</p>
+                </div>
+            </div>
+            <div class="thumb">
+                <a href="" ><img class="thumb_img" alt=""></a>
+                <div class="thumb_text">
+                    <p>hello 这里是可爱的壁纸哦</p>
+                </div>
+            </div>
+            <div class="thumb">
+                <a href="" ><img class="thumb_img" src="i" alt=""></a>
+                <div class="thumb_text">
+                    <p>hello 这里是可爱的壁纸哦</p>
+                </div>
+            </div>
+            <div class="thumb">
+                <a href="" ><img class="thumb_img" src="" alt=""></a>
+                <div class="thumb_text">
+                    <p>hello 这里是可爱的壁纸哦</p>
+                </div>
+            </div>
+            <div class="thumb">
+                <a href="" ><img class="thumb_img" src="" alt=""></a>
+                <div class="thumb_text">
+                    <p>hello 这里是可爱的壁纸哦</p>
+                </div>
+            </div>
+            <div class="thumb">
+                <a href="" ><img class="thumb_img" src="" alt=""></a>
+                <div class="thumb_text">
+                    <p>hello 这里是可爱的壁纸哦</p>
+                </div>
+            </div>
+            <div class="thumb">
+                <a href="" ><img class="thumb_img" src="" alt=""></a>
+                <div class="thumb_text">
+                    <p>hello 这里是可爱的壁纸哦</p>
+                </div>
+            </div>
+            <div class="thumb">
+                <a href="" ><img class="thumb_img" src="" alt=""></a>
+                <div class="thumb_text">
+                    <p>hello 这里是可爱的壁纸哦</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script type="text/javascript" src="wallpaper.js"></script>
+</html>

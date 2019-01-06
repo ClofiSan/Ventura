@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>范图喵的博客箱子</title>
+    <style type="text/css">
+        @import "Global.css";
+        @import "first_page.css";
+        @import "wallpaper_css.css";
+        #blog_index{
+            padding-top: 30px;
+        }
+    </style>
+</head>
+<body>
+<div class="sidenav">
+    <div id="sidenav_intro">
+        <a href="" id="sidenav_img"><img src="cats.jpg" alt="" ></a>
+        <p >范图喵</p>
+    </div>
+    <ul>
+        <li><a class="no-active" href="firsr_page.html">首页</a></li>
+        <li><a class="active" href="blog_index.html">博客</a></li>
+        <li><a class="no-active" href="wallpaper_index.html">壁纸</a></li>
+        <li><a href="achieve_inde.html" class="no-active">归档</a></li>
+        <li><a href="">关于</a></li>
+    </ul>
+</div>
+<div id="nav_header">
+    <!--顶栏只需要一个搜索功能，侧栏才是真正的索引-->
+    <header>
+        <div id="nav_search">
+            <form action="firsr_page.html"  method="get">
+                <input class="search" type="text" placeholder="搜索..">
+                <input type="button" class="btn " value="">
+
+                <!--提交快关的样子能不能好看一点-->
+            </form>
+
+        </div>
+
+        <div id="video_player">
+
+        </div>
+    </header>
+</div>
+<aside id="Right_aside">
+    <!--热门文章-->
+    <section class="aside_section" id="p_articles">
+        <!--五篇-->
+        <h2 class="aside_title">热门文章</h2>
+        <ul>
+            <li>
+                <div class="p_article">
+                    <div class="art_img">
+                        <img src="imgs/head1.jpeg" alt="">
+                    </div>
+                    <div class="p_art_name">
+                        <a href="blog_content.html">技术 | 第一份ARCore代码 </a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="p_article">
+                    <div class="art_img">
+                        <img src="imgs/head2.jpeg" alt="">
+                    </div>
+                    <div class="p_art_name">
+                        <a href="">技术 | 战友的初始化：Manjaro配置和安装</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="p_article">
+                    <div class="art_img">
+                        <img src="imgs/head3.jpeg" alt="">
+                    </div>
+                    <div class="p_art_name">
+                        <a href="">读书报告 | 《黑天鹅》：人类认知的反思</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="p_article">
+                    <div class="art_img">
+                        <img src="imgs/head4.jpeg" alt="">
+                    </div>
+                    <div class="p_art_name">
+                        <a href="">历史笔记 | 汉尼拔和西庇阿</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="p_article">
+                    <div class="art_img">
+                        <img src="imgs/head5.jpeg" alt="">
+                    </div>
+                    <div class="p_art_name">
+                        <a href="">小故事 | 翻到了高中时候的情书</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <!--网站信息：文章数目，评论数目，运行天数-->
+    <section class="aside_section" id="infor">
+        <h2 class="aside_title">网站信息</h2>
+        <div id="infor_box">
+            <ul>
+                <li>文章数目：</li>
+                <li>评论数目：</li>
+                <li>运行天数：</li>
+            </ul>
+        </div>
+    </section>
+    <!--可选：标签分类设定-->
+    <section class="aside_section" id="aside_tags">
+        <h2 class="aside_title">标签云</h2>
+        <div class="tag_box">
+            <div class="tag_line">
+                <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                    罗马
+                </a>
+                <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                    优质文章
+                </a>
+                <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                    技术
+                </a>
+
+            </div>
+            <div class="tag_line">
+                <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                    Android
+                </a>
+                <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                    Java
+                </a>
+                <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                    历史
+                </a>
+            </div>
+            <div class="tag_line">
+                <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                    想法
+                </a>
+                <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                    javascript
+                </a>
+                <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                    前端
+                </a>
+
+            </div>
+            <div class="tag_line">
+                <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                    动漫
+                </a>
+                <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                    随笔
+                </a>
+                <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                    中国历史
+                </a>
+
+            </div>
+            <div class="tag_line">
+                <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                    生活
+                </a>
+                <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                    日常
+                </a>
+                <a href="" data-toggle="" data-original-title="这个标签下有5篇文章">
+                    噗噗噗
+                </a>
+
+            </div>
+
+
+        </div>
+    </section>
+</aside>
+<div class="container" id="blog_index">
+    <!--左边是图片，右边是一些文章的索引-->
+    <!--图片分为几个部分吧,图片只是一个部分，而之后的文字索引又是一个部分-->
+    <!--如果单纯地点击到了container会自己进入blog主页-->
+    <!--索引到有博客网页-->
+    <div id="blog_box">
+        <div class="blog_list">
+            <div class="blog_box">
+                <a href="" class="blog_images"><img src="imgs/fgo1.jpg" alt=""></a>
+                <div class="blog_refer">
+                    <h2>博客题目1</h2>
+                    <p>一些叽叽喳的内容</p>
+                </div>
+            </div>
+            <div class="blog_box">
+                <a href="" class="blog_images"><img src="imgs/blog2.jpg" alt=""></a>
+                <div class="blog_refer">
+                    <h2>博客题目2</h2>
+                    <p>一些叽叽喳的内容</p>
+                </div>
+            </div>
+            <div class="blog_box">
+                <a href="" class="blog_images"><img src="imgs/blog3.jpg" alt=""></a>
+                <div class="blog_refer">
+                    <h2>博客题目3</h2>
+                    <p>一些叽叽喳的内容</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
